@@ -1,7 +1,7 @@
 <?php
 
 // Main file
-$formname = "Testform";
+$formname = "Testform2";
 if (!$_POST["submit"])
 {
 <<<<<<< HEAD
