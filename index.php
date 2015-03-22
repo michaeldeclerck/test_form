@@ -4,6 +4,10 @@
 
 if ($_POST["submit"])
 {
-	call_an_error();
+	// Process the form
+}
+else
+{
+	include "form.tpl.php";
 }
 ?>
