@@ -2,8 +2,9 @@
 
 // Main file
 
-if ($_POST["submit"])
+if (!$_POST["submit"])
 {
-	call_an_error();
+	echo date("Y-m-d");
+	include "form.tpl.php";
 }
 ?>
